@@ -1,0 +1,679 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+.head{
+    font-family: 'Prompt', sans-serif;
+    font-size: 3.8rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 1.8rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    color:white;
+    
+}
+
+#home-para{
+    font-family: 'Roboto Slab' , sans-serif;
+    font-weight: bold;
+    color:white;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+
+#home-container{
+    background-color:#3C4245;
+    padding-bottom: 4rem;
+}
+
+
+ .homee{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+
+
+}
+
+hr{
+    width : 40rem;
+    
+    color: white;
+}
+
+#dp{
+    width : 19rem;
+
+}
+
+#about-container{
+    padding-bottom: 4rem;
+    background-color:#719192; 
+     
+}
+
+#about-heading{
+    padding-top: 3.8rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.5rem;
+    color:white;
+
+}
+
+.aboutt{ 
+    display: flex;
+    
+    
+    font-size: 1.4rem;
+    font-family: 'Roboto Slab' , sans-serif;
+    padding-top: 2rem;
+    word-spacing: 0.2rem;
+   
+    text-align: center;
+    line-height: 3rem;
+    color: white
+}
+
+
+
+#skill-container{
+    
+    padding-bottom: 4rem;
+    background-color: #5F6769;
+
+}
+
+#skill-heading{
+    padding-top: 3.8rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.5rem;
+    color:white;
+
+}
+
+.skills{
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction:row-reverse;
+    
+    justify-content:center;
+    padding-top: 2rem;
+    
+
+
+}
+
+.progress1 {
+    background: grey;
+    justify-content: flex-start;
+    border-radius: 9rem;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 0.4rem;
+    display: flex;
+    height: 2rem;
+    width: 60rem;
+  }
+  
+  .progress-value1 {
+    animation: load 4s infinite forwards;
+    border-radius: 9rem;
+    background:white;
+    height: 1.4rem;
+    width: 0;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 100%; }
+  }
+
+  .progress2 {
+    background: grey;
+    justify-content: flex-start;
+    border-radius: 9rem;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 0.4rem;
+    display: flex;
+    height: 2rem;
+    width: 60rem;
+  }
+  
+  .progress-value2 {
+    animation: load1 4s infinite forwards;
+    border-radius: 9rem;
+    background:white;
+    height: 1.4rem;
+    width: 0;
+  }
+  
+  @keyframes load1 {
+    0% { width: 0; }
+    100% { width: 85%; }
+  }
+
+  .progress3 {
+    background: grey;
+    justify-content: flex-start;
+    border-radius: 9rem;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 0.4rem;
+    display: flex;
+    height: 2rem;
+    width: 60rem;
+  }
+  
+  .progress-value3 {
+    animation: load2 4s infinite forwards;
+    border-radius: 9rem;
+    background:white;
+    height: 1.4rem;
+    width: 0;
+  }
+  
+  @keyframes load2 {
+    0% { width: 0; }
+    100% { width: 50%; }
+  }
+
+  .progress4 {
+    background: grey;
+    justify-content: flex-start;
+    border-radius: 9rem;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 0.4rem;
+    display: flex;
+    height: 2rem;
+    width: 60rem;
+  }
+  
+  .progress-value4 {
+    animation: load3 4s infinite forwards;
+    border-radius: 9rem;
+    background:white;
+    height: 1.4rem;
+    width: 0;
+  }
+  
+  @keyframes load3 {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+
+  .progress5 {
+    background: grey;
+    justify-content: flex-start;
+    border-radius: 9rem;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 0.4rem;
+    display: flex;
+    height: 2rem;
+    width: 60rem;
+  }
+  
+  .progress-value5 {
+    animation: load4 4s infinite forwards;
+    border-radius: 9rem;
+    background:white;
+    height: 1.4rem;
+    width: 0;
+  }
+  
+  @keyframes load4 {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+
+
+#p1{
+  font-family: 'Roboto Slab' , sans-serif;  
+  letter-spacing: 0.05rem;
+  font-weight:600;
+  }
+
+  #p2{
+   padding-top: 1rem;
+   font-family: 'Roboto Slab' , sans-serif;
+   letter-spacing: 0.05rem;
+   font-weight:600;
+   font-size: 1rem;
+    
+  }
+
+  #p3{
+    padding-top: 1rem;
+    font-family: 'Roboto Slab' , sans-serif;
+    letter-spacing: 0.05rem;
+    font-weight:600;
+    font-size: 1rem;
+  }
+
+  #p4{
+      padding-top: 1rem;
+      font-family: 'Roboto Slab' , sans-serif;
+      letter-spacing: 0.05rem;
+      font-weight:600;
+      font-size: 1rem;
+  }
+
+  #p5{
+      padding-top: 1rem;
+      font-family: 'Roboto Slab' , sans-serif;
+      letter-spacing: 0.05rem;
+      font-weight:600;
+      font-size: 1rem;
+  }
+
+  .pa-img{
+    width : 2.5rem;
+  }
+
+  #resume-container{ 
+   
+    padding-bottom: 8rem; 
+    background-color: #3C4245;
+  } 
+
+  #resume-heading{
+    padding-top: 3.8rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 0.1rem;
+    color:white;
+  }
+
+  .resume{
+      display : flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding-top: 1rem;
+      justify-content:space-around;
+  }
+
+  .ress1{
+     padding-right: 9rem;
+  }
+
+  #inner-ress1{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+  }
+
+  #inner-ress1 p{
+    font-size: 1.5rem; 
+    padding-bottom: 1rem; 
+    color:white;   
+  }
+
+  .badge1{
+    
+    font-size: 1rem;
+    height: 1.5rem;
+    
+  }
+
+  .side1{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+  }
+
+  .para-resume1{
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    font-family: 'Roboto Slab' , sans-serif;
+    word-spacing: 0.3rem;
+    color: white;
+    letter-spacing: 0.05rem;
+  }
+
+  .ress2{
+    
+  }
+
+  #inner-ress2{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+
+  #inner-ress2 p{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color:white;
+  }
+
+  .side2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+
+  .para-resume2{
+    font-size: 1.2rem;
+    padding-left: 2.1rem;
+    font-family: 'Roboto Slab' , sans-serif;
+    word-spacing: 0.3rem;
+    color:white;
+    letter-spacing: 0.05rem;
+  }
+
+  #pic-resume{
+     width: 2rem;
+     padding-right: 1rem;
+     
+  }
+
+  #project-container{
+    padding-bottom: 7rem; 
+    background-color: #719192;
+  }
+
+
+  #project-heading{
+    padding-top: 3.8rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 0.1rem;
+    color:white;
+  }
+
+  .project{
+    display:flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    justify-content:space-evenly;
+
+  }
+
+  .card{
+    background-color: #719192;
+    border:transparent;
+  }
+
+  .cc{
+    width : 18rem;
+  }
+  
+  .cc2{
+    width : 18rem;
+  }
+
+  .cc3{
+    width : 18rem;
+  }
+
+
+  #contact-container{
+      background-color: #5F6769;
+      padding-bottom: 4rem; 
+  }  
+  
+  #contact-heading{
+    padding-top: 3.8rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 0.1rem;
+    color:white;
+  }
+
+  .contact{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    box-sizing: border-box;
+    justify-content:center;
+    padding-top: 1rem;
+  }
+
+  label{
+    font-size: 1.4rem;
+    font-family: 'Roboto Slab' , sans-serif;
+    word-spacing: 0.3rem;
+    color: white;
+
+  }
+
+  .footer{
+    text-align: center;
+    background-color: #3C4245;
+    padding-bottom: 3rem;
+  }
+
+   .footer p{
+    padding-top: 3rem;
+    padding-left: 0.2rem;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+
+  }
+
+  .f-row{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+
+  }
+  
+  .f-row img{
+    width : 3.5rem;
+  }
+
+  .lower-footer{
+    background-color: #5F6769;
+    padding-bottom: 1rem;
+  }
+  
+  
+  .lower-footer p{
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    font-family: 'Roboto Slab' , sans-serif;
+    color:white;
+    text-align: center;
+  }
+
+
+
+  @media only screen and (max-width: 376px){
+
+    html{
+      font-size: 14%;
+    }
+
+    #dp{
+      width : 13rem;
+    }
+
+    .head{
+      font-size: 2.7rem;
+    }
+
+    .homee hr{
+      width : 20rem;
+    }
+
+    #home-para{
+      font-size: 1rem;
+      text-align:center;
+    }
+
+    .aboutt{
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      font-size: 1.1rem;
+      
+    }
+
+    
+    .skills {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        padding-top: 2rem;
+    }
+
+     .progress1{
+      width : 17rem;
+    }
+
+    #skill-container .skills .progress2{
+      width : 17rem;
+    }
+
+    #skill-container .skills .progress3{
+      width : 17rem;
+    }
+
+    #skill-container .skills .progress4{
+      width : 17rem;
+    }
+
+    #skill-container .skills .progress5{
+      width : 17rem;
+    }
+
+    .pa-img{
+      width : 1.5rem;
+    }
+
+    #p1{
+      font-size : 0.7rem;
+    }
+
+    #p2{
+      padding-top: 2.4rem;
+      font-size : 0.7rem;
+    }
+
+    #p3{
+      padding-top: 1.9rem;
+      font-size : 0.7rem;
+    }
+
+    #p4{
+      padding-top: 2.1rem;
+      font-size : 0.7rem;
+    }
+
+    #p5{
+      padding-top: 2rem;
+      font-size : 0.7rem;
+    }
+
+    .resume{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ress1{
+      padding-left: 1.5rem;
+      padding-right: 0rem;
+    }
+
+    #inner-ress2{
+      padding-left: 1.5rem;
+    }
+
+    .para-resume1{
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .para-resume2{
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+
+
+    .badge1{
+      font-size: 0.7rem;
+    }
+
+    .project{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #project-heading{
+      font-size: 2.5rem;
+    }
+
+    .project{
+      align-items: center;
+    }
+
+    .cc{
+      width : 13rem;
+    }
+    .cc2{
+      width : 13rem;
+    }
+    .cc3{
+      width : 13rem;
+    }
+
+    #contact-heading{
+      font-size: 2rem;
+    }
+
+    .contact{
+      padding-left: 2rem;
+      padding-right: 2rem;
+    } 
+
+    .footer p{
+      font-size: 1.3rem;
+    }  
+
+    .f-row img{
+      width : 3rem;
+    }
+
+    .lower-footer p{
+      font-size: 1rem;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
